@@ -133,17 +133,22 @@ body {
         padding: 12px 22px;
         display: flex;
         align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        
+
         
     
         & span {
             font-size: 36px;
             font-weight: 700;
             color: var(--Very-Dark-Blue);
-            margin-right: 5px;
+            
         }
         & p {
             color: var(--Grayish-Blue);
             font-weight: 700;
+            margin: 0;
         }
     }
     
